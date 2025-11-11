@@ -21,9 +21,12 @@ main {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 100px;
+    padding-top: 30px;
 }
 
-.woman, .man, .kid {
+.woman,
+.man,
+.kid {
     padding: 5px;
 }
 
@@ -58,11 +61,14 @@ main {
 
 .header-main {
     background-color: #ff6900;
-    box-shadow: 2px 2px rgba(140, 140, 140,  0.4);
+    box-shadow: 2px 2px rgba(140, 140, 140, 0.4);
     height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index:9999
 }
 
 .product-section {
@@ -75,11 +81,26 @@ main {
 
 .card {
     width: calc((100%/3) - (20px/3));
+    position: relative;
 }
 
 .dress-image {
     width: 450px;
     height: 650px;
+    
+}
+
+.dress-image-hover {
+    width: 450px;
+    height: 650px;
+    display: none;
+}
+
+.card:hover .dress-image-hover{
+    display: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .footer-main {
