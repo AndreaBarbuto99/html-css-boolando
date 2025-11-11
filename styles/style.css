@@ -68,7 +68,7 @@ main {
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index:9999
+    z-index: 9999
 }
 
 .product-section {
@@ -87,7 +87,7 @@ main {
 .dress-image {
     width: 450px;
     height: 650px;
-    
+
 }
 
 .dress-image-hover {
@@ -96,7 +96,7 @@ main {
     display: none;
 }
 
-.card:hover .dress-image-hover{
+.card:hover .dress-image-hover {
     display: initial;
     position: absolute;
     top: 0;
@@ -110,4 +110,12 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.heart {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding: 10px;
+    background-color: white;
 }
