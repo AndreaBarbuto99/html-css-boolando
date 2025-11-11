@@ -20,19 +20,35 @@ body {
 main {
     width: 90%;
     margin: 0 auto;
-}
-/* UTILITIES RULES  */
-
-.white-text {
-    color: white;
-    font-weight: 700;
+    padding-bottom: 100px;
 }
 
 .woman, .man, .kid {
     padding: 5px;
 }
 
+
+/* UTILITIES RULES  */
+
+
+
 .icon {
+    color: white;
+    padding: 2px;
+}
+
+.white-text {
+    color: white;
+    font-weight: 700;
+}
+
+.red-number {
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.white {
     color: white;
     padding: 2px;
 }
@@ -64,4 +80,13 @@ main {
 .dress-image {
     width: 450px;
     height: 650px;
+}
+
+.footer-main {
+    height: 100px;
+    padding: 0 100px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
